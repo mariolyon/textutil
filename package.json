@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "ava",
+    "test-watch": "ava --watch"
+  },
+  "dependencies": {
+    "ava": "^6.4.1",
+    "node": "^20.19.4"
+  }
+}
