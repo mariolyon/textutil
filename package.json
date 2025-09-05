@@ -1,10 +1,15 @@
 {
   "scripts": {
     "test": "ava",
-    "test-watch": "ava --watch"
+    "test-watch": "ava --watch",
+    "lint": "standard",
+    "fix": "standard --fix"
   },
   "dependencies": {
     "ava": "^6.4.1",
     "node": "^20.19.4"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
   }
 }
